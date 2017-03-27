@@ -3,3 +3,4 @@ machine:
 dependencies:
   pre:
     - gem update bundler --no-document
+    - echo ${BUNDLE_UPDATE}
