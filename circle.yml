@@ -1,0 +1,5 @@
+machine:
+  timezone: Asia/Tokyo
+dependencies:
+  pre:
+    - gem update bundler --no-document
